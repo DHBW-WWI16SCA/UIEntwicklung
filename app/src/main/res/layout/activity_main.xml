@@ -14,7 +14,7 @@
 
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-
+android:onClick="navigate"
         android:text="A"
         />
 
@@ -86,6 +86,17 @@
             android:text="A3"/>
 
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="137dp"
+        android:layout_marginStart="56dp"
+        android:editable="false"
+        android:ems="10" />
 
 
 </RelativeLayout>
